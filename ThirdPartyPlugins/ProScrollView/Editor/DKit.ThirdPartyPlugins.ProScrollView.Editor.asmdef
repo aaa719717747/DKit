@@ -1,0 +1,7 @@
+﻿{
+  "name": "DKit.ThirdPartyPlugins.ProScrollView.Editor",
+
+  "references": [
+    "DKit.ThirdPartyPlugins.ProScrollView.Runtime"
+  ]
+}

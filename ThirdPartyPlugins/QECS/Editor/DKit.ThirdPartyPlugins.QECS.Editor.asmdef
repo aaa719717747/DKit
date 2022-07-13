@@ -1,0 +1,7 @@
+{
+  "name": "DKit.ThirdPartyPlugins.QECS.Editor",
+
+  "references": [
+   "DKit.ThirdPartyPlugins.QECS.Runtime"
+  ]
+}

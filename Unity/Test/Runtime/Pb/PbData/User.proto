@@ -1,0 +1,12 @@
+syntax = "proto3";
+option optimize_for = LITE_RUNTIME;
+option csharp_namespace = "Im.Unity.protobuf_unity.Tests.Runtime.ProtoDemo";
+package main;
+
+message User
+{
+  int32 uid=1;
+  string account = 2;
+  string password = 3;
+}
+

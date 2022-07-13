@@ -1,0 +1,9 @@
+﻿{
+  "name": "DKit.Unity.Test.Runtime",
+
+  "references": [
+    "Im.Unity.protobuf-unity.Runtime",
+    "DKit.ThirdPartyPlugins.DKitObjectPool.Runtime",
+    "DKit.ThirdPartyPlugins.LogHelper.Runtime"
+  ]
+}

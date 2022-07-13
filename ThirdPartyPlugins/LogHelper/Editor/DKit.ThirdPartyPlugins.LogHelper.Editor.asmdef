@@ -1,0 +1,6 @@
+﻿{
+  "name": "DKit.ThirdPartyPlugins.LogHelper.Editor",
+  "references": [
+    "DKit.ThirdPartyPlugins.LogHelper.Runtime"
+  ]
+}

@@ -1,0 +1,18 @@
+//=============
+Entity[Cat]
+{
+  Use MoveComponent moveComponent;
+  Use BattleComponent battleComponent;
+}
+
+Component[MoveComponent]
+{
+   Int32 speed;
+}
+
+Component[BattleComponent]
+{
+    Int64 owenTime;//整数
+    Entity<Cat> whiteCat;//实体
+    List<Entity<Cat>>[5] redCats;//链表
+}

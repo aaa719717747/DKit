@@ -1,0 +1,21 @@
+{
+  "name": "Im.Unity.protobuf-unity.Tests.Runtime",
+  "references": [
+    "Im.Unity.protobuf-unity.Runtime"
+  ],
+  "dependencies": {
+  },
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

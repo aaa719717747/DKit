@@ -1,0 +1,29 @@
+syntax = "proto3";
+option optimize_for = LITE_RUNTIME;
+option csharp_namespace = "Im.Unity.protobuf_unity.Tests.Runtime.ProtoDemo";
+package main;
+
+message Character
+{
+  int32 cid=1;
+  string roleName = 2;
+  int32 level = 3;
+  Sexy sexy=4;
+  map<int32, string> option = 5;
+//  map<int32, User> optionUsers = 6;
+  repeated string tags = 7; // 标签
+  repeated double location = 8; // 经纬度
+  repeated UserBase userBs=9;
+  enum Sexy {
+    MAN = 0;
+    WOMAN = 1;
+  }
+}
+
+message UserBase {
+  string uid = 1;
+}
+
+message HHHHH {
+  string uid = 1;
+}

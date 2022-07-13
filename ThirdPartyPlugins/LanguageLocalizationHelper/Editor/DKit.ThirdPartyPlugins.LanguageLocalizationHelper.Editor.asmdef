@@ -1,0 +1,7 @@
+﻿{
+  "name": "DKit.ThirdPartyPlugins.LanguageLocalizationHelper.Editor",
+
+  "references": [
+    "DKit.ThirdPartyPlugins.LanguageLocalizationHelper.Runtime"
+  ]
+}

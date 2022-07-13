@@ -1,0 +1,7 @@
+﻿{
+  "name": "DKit.ThirdPartyPlugins.LogHelper.Runtime",
+  "references": [
+    "DKit.ThirdPartyPlugins.ProScrollView.Runtime",
+    "DKit.ThirdPartyPlugins.ThreadHelper.Runtime"
+  ]
+}

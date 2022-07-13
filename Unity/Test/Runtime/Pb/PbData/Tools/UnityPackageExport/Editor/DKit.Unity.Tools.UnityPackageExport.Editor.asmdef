@@ -1,0 +1,7 @@
+﻿{
+  "name": "DKit.Unity.Tools.UnityPackageExport.Editor",
+
+  "references": [
+    "DKit.Unity.Tools.HMiniJson.Runtime"
+  ]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "name": "DKit.ThirdPartyPlugins.DKitObjectPool.Editor",
+  "references": [
+    "DKit.ThirdPartyPlugins.DKitObjectPool.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": []
+}

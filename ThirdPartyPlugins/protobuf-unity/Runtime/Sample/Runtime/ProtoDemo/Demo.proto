@@ -1,0 +1,38 @@
+﻿syntax = "proto3";
+option optimize_for = LITE_RUNTIME;
+option csharp_namespace = "Im.Unity.protobuf_unity.Tests.Runtime.ProtoDemo";
+package main;
+
+message DemoUser
+{
+  int32 id = 1;
+  string name = 2;
+  string roleId = 3;
+  repeated int32 roleArrays = 4;
+  LoginRequest loginReq = 5;
+  bool isOk=6;
+
+  enum Corpus {
+    UNIVERSAL = 0;
+    WEB = 1;
+    IMAGES = 2;
+    LOCAL = 3;
+    NEWS = 4;
+    PRODUCTS = 5;
+    VIDEO = 6;
+  }
+  Corpus corpus = 7;
+}
+
+
+message DemoDiffMsg{
+  string name = 1;
+  int32 id = 2;
+}
+
+// GroupUpdateRequest 群组更新请求
+message LoginRequest{
+  string account = 1; // 群ID
+  string password = 2; // 标题
+  map<int32,string> dict=3;
+}
